@@ -1,677 +1,695 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8">
+  <title>House of Philia | Serving with Love</title>
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <title>House of Philia | Serving with Love</title>
-
-    <!-- Google Fonts -->
-
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;700&display=swap"
-          rel="stylesheet">
-
-    <!-- CSS -->
-
-    <link rel="stylesheet"
-          href="css/style.css">
-
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- ========================================= -->
-    <!-- LOADING SCREEN -->
-    <!-- ========================================= -->
+  <!-- ========================= LOADING SCREEN ========================= -->
+  <div id="loader">
+    <div class="loader-content">
+      <img src="images/logo/logo.png" alt="House of Philia Logo" class="loader-logo">
+      <h2>House of Philia</h2>
+      <p>Serving with Love • Living in Community</p>
+    </div>
+  </div>
 
-    <div id="loader">
+  <!-- ========================= NAVIGATION ========================= -->
+  <header class="navbar">
 
-        <div class="loader-content">
+    <div class="logo-container">
+      <img src="images/logo/logo.png" alt="House of Philia Logo" class="logo">
 
-            <img src="images/logo/logo.png"
-                 alt=""
-                 class="loader-logo">
+      <div class="logo-text">
+        <h3>House of Philia</h3>
+        <span>Durban Community Outreach</span>
+      </div>
+    </div>
 
-            <h2>House of Philia</h2>
+    <!-- Mobile Menu -->
+    <div class="menu-toggle">☰</div>
 
-            <p>Serving with Love • Living in Community</p>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="about.html">About</a>
+      <a href="saturdays.html">Saturdays</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="contact-btn">Contact Us</a>
+    </nav>
 
+  </header>
+
+
+  <!-- ========================= HERO SECTION ========================= -->
+
+  <section class="hero" id="home">
+
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="videos/hero-video.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <!-- Decorative Glow -->
+    <div class="gold-glow glow-one"></div>
+    <div class="gold-glow glow-two"></div>
+
+    <img src="images/icons/olive.png" class="olive olive-left" alt="Olive Branch">
+    <img src="images/icons/olive.png" class="olive olive-right" alt="Olive Branch">
+
+
+    <div class="hero-content">
+
+      <p class="eyebrow">
+        SERVING THE DURBAN COMMUNITY FOR OVER 10 YEARS
+      </p>
+
+      <img src="images/logo/logo.png" class="hero-logo" alt="House of Philia Logo">
+
+      <h1>
+        We don't just touch the stomach.
+        <br>
+        <span>We touch the soul with genuine love.</span>
+      </h1>
+
+      <p class="hero-description">
+        Through every meal shared, every conversation held, and every act of compassion,
+        everything we do is to the glory of God.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="about.html" class="primary-button">
+          Discover Our Story
+        </a>
+
+        <a href="gallery.html" class="secondary-button">
+          See Our Community
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span></span>
+      <p>Scroll</p>
+    </div>
+
+  </section>
+
+
+  <!-- ========================= CURVED DIVIDER ========================= -->
+
+  <svg class="wave" viewBox="0 0 1440 180" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#F8F3EC"
+      d="M0,64L120,96C240,128,480,192,720,186.7C960,181,1200,107,1320,69.3L1440,32V180H0Z"></path>
+  </svg>
+
+
+  <!-- ========================= WHO WE ARE ========================= -->
+
+  <section class="about-preview">
+
+    <div class="about-image">
+      <img src="images/hero/community.jpg" alt="House of Philia Community">
+    </div>
+
+    <div class="about-text">
+
+      <p class="section-title">WHO WE ARE</p>
+
+      <h2>
+        More than an organisation.
+        <br>
+        A family serving a community.
+      </h2>
+
+      <p>
+        Philia is the Greek word for brotherly love.
+        House of Philia exists to serve the Durban community through meals,
+        fellowship, compassion and faith.
+      </p>
+
+      <p>
+        We believe serving is not about standing above people.
+        It's about walking alongside them, sharing life together,
+        and reflecting God's love through genuine acts of kindness.
+      </p>
+
+      <a href="about.html" class="text-link">
+        Learn more about our journey →
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- ===== PART 2 STARTS DIRECTLY BELOW THIS LINE ===== -->
+
+      <!-- ========================= OUR HEART ========================= -->
+
+  <section class="mission-section">
+
+    <div class="section-heading">
+      <p>OUR HEART</p>
+      <h2>Faith. Love. Community.</h2>
+      <p>
+        Every Saturday begins with love,
+        continues through service,
+        and ends with gratitude.
+      </p>
+    </div>
+
+    <div class="mission-grid">
+
+      <div class="mission-card">
+        <img src="images/icons/bread.png" alt="Bread Icon">
+        <h3>Serve</h3>
+        <p>
+          Preparing meals and pastries with dignity,
+          generosity and care.
+        </p>
+      </div>
+
+      <div class="mission-card">
+        <img src="images/icons/heart.png" alt="Heart Icon">
+        <h3>Love</h3>
+        <p>
+          Building meaningful relationships through compassion,
+          encouragement and genuine kindness.
+        </p>
+      </div>
+
+      <div class="mission-card">
+        <img src="images/icons/cross.png" alt="Cross Icon">
+        <h3>Faith</h3>
+        <p>
+          Everything we do is done to the glory of God.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================= FEATURE QUOTE ========================= -->
+
+  <section class="quote-section">
+
+    <div class="quote-card">
+
+      <p class="quote-mark">“</p>
+
+      <h2>
+        Every act of kindness is an opportunity
+        to reflect the love of Christ.
+      </h2>
+
+      <span>HOUSE OF PHILIA</span>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================= OUR JOURNEY ========================= -->
+
+  <section class="timeline-section">
+
+    <div class="section-heading">
+      <p>OUR JOURNEY</p>
+      <h2>More than ten years of faithful service.</h2>
+      <p>
+        What began with a heart to serve has grown into a community built on
+        compassion, consistency and faith.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <span>2015</span>
+          <h3>The Beginning.</h3>
+          <p>
+            House of Philia began with a simple mission:
+            serve the Durban community with genuine love and compassion.
+          </p>
         </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <span>Growing Together</span>
+          <h3>One Saturday became many Saturdays.</h3>
+          <p>
+            Week after week volunteers continued showing up,
+            preparing meals, building relationships and serving faithfully.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <span>Today</span>
+          <h3>Still serving with the same heart.</h3>
+          <p>
+            More than a decade later,
+            House of Philia continues serving over 200 people every Saturday.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================= IMPACT SECTION ========================= -->
+
+  <section class="impact-section">
+
+    <div class="impact-overlay"></div>
+
+    <div class="section-heading light">
+      <p>OUR IMPACT</p>
+      <h2>Love in Action.</h2>
+      <p>
+        Every number represents people, stories and lives touched through
+        consistent acts of service.
+      </p>
+    </div>
+
+    <div class="impact-grid">
+
+      <div class="impact-card">
+        <h3 class="counter" data-target="200">0</h3>
+        <p>People served every Saturday.</p>
+      </div>
+
+      <div class="impact-card">
+        <h3 class="counter" data-target="10">0</h3>
+        <p>Years serving the Durban community.</p>
+      </div>
+
+      <div class="impact-card">
+        <h3>Every Saturday</h3>
+        <p>
+          Meals, pastries, fellowship and prayer shared with our community.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <h3>One Community</h3>
+        <p>
+          Serving with people,
+          not above people.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================= GALLERY PREVIEW ========================= -->
+
+  <section class="gallery-preview">
+
+    <div class="section-heading">
+      <p>OUR COMMUNITY</p>
+      <h2>Moments filled with love.</h2>
+      <p>
+        Every Saturday tells another story of faith,
+        friendship and hope.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-card large">
+        <img src="images/gallery/photo1.jpg" alt="Community Outreach">
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/gallery/photo2.jpg" alt="Preparing Meals">
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/gallery/photo3.jpg" alt="Serving Pastries">
+      </div>
+
+      <div class="gallery-card video-card">
+        <video muted loop autoplay playsinline>
+          <source src="videos/saturday1.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/gallery/photo4.jpg" alt="Children and Families">
+      </div>
+
+      <div class="gallery-card tall">
+        <img src="images/gallery/photo5.jpg" alt="Community Fellowship">
+      </div>
+
+    </div>
+
+    <div class="gallery-button">
+      <a href="gallery.html" class="primary-button">
+        Explore the Full Gallery
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- ========================= SERVING DURBAN ========================= -->
+
+  <section class="community-section">
+
+    <div class="community-image">
+      <img src="images/gallery/photo6.jpg" alt="Serving Together">
+    </div>
+
+    <div class="community-text">
+
+      <p class="section-title">SERVING DURBAN</p>
+
+      <h2>Rooted in our community.</h2>
+
+      <p>
+        House of Philia serves within the Durban community because community begins
+        with knowing, loving and walking alongside one another.
+      </p>
+
+      <p>
+        We are neighbours serving neighbours through compassion,
+        meals, encouragement and faith.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- ===== PART 3 STARTS AFTER THIS ===== -->
+<!-- ========================= FOUNDATION ========================= -->
+
+<section class="glory-section">
+
+  <div class="glory-content">
+
+    <p class="section-title">OUR FOUNDATION</p>
+
+    <h2>
+      Everything we do is to the glory of God.
+    </h2>
+
+    <div class="gold-divider"></div>
+
+    <p class="glory-text">
+
+      We believe every person is created in God's image.
+
+      Every meal prepared.
+
+      Every hand extended.
+
+      Every conversation shared.
+
+      Every Saturday served.
+
+      Everything we do reflects the love of Christ through genuine love and compassion.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ========================= CONTACT BANNER ========================= -->
+
+<section class="contact-banner">
+
+  <div class="contact-card">
+
+    <div class="contact-left">
+
+      <p class="section-title">CONNECT WITH US</p>
+
+      <h2>Come connect with House of Philia.</h2>
+
+      <p>
+
+        We'd love to hear from you, support together, and continue serving our Durban community with compassion and faith.
+
+      </p>
 
     </div>
 
 
-    <!-- ========================================= -->
-    <!-- NAVIGATION -->
-    <!-- ========================================= -->
+    <div class="contact-right">
 
-    <header class="navbar">
+      <div class="contact-item">
 
-        <div class="logo-container">
+        <img src="images/icons/location.png" alt="Location">
 
-            <img src="images/logo/logo.png"
-                 alt=" "
-                 class="logo">
+        <div>
 
-            <div class="logo-text">
+          <h4>Location</h4>
 
-                <h3>House of Philia</h3>
-
-                <span>Yeoville Community Outreach</span>
-
-            </div>
+          <p>Durban, KwaZulu-Natal, South Africa</p>
 
         </div>
 
-        <!-- Mobile Menu Button -->
-
-        <div class="menu-toggle">
-
-            ☰
-
-        </div>
-
-        <nav class="nav-links">
-
-            <a href="#home">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="saturdays.html">Saturdays</a>
-
-            <a href="gallery.html">Gallery</a>
-
-            <a href="contact.html"
-               class="contact-btn">
-
-                Contact Us
-
-            </a>
-
-        </nav>
-
-    </header>
+      </div>
 
 
-    <!-- ========================================= -->
-    <!-- HERO -->
-    <!-- ========================================= -->
+      <div class="contact-item">
 
-    <section class="hero"
-             id="home">
+        <img src="images/icons/phone.png" alt="Phone">
 
-        <!-- Video -->
+        <div>
 
-        <video autoplay
-               muted
-               loop
-               playsinline
-               class="hero-video">
+          <h4>WhatsApp</h4>
 
-            <source src="videos/hero-video.mp4"
-                    type="video/mp4">
-
-        </video>
-
-        <!-- Overlay -->
-
-        <div class="hero-overlay"></div>
-
-        <!-- Decorative Shapes -->
-
-        <div class="gold-glow glow-one"></div>
-
-        <div class="gold-glow glow-two"></div>
-
-        <img src="images/icons/olive.png"
-             class="olive olive-left">
-
-        <img src="images/icons/olive.png"
-             class="olive olive-right">
-
-        <!-- Hero Content -->
-
-        <div class="hero-content">
-
-            <p class="eyebrow">
-
-                SERVING THE COMMUNITY FOR OVER 10 YEARS
-
-            </p>
-
-            <img src="images/logo/logo.png"
-                 class="hero-logo"
-                 alt=" ">
-
-            <h1>
-
-                We don't just touch
-
-                <br>
-
-                the stomach.
-
-                <br>
-
-                <span>We touch the soul with genuine love.</span>
-
-            </h1>
-
-            <p class="hero-description">
-
-                Through every meal shared, every conversation held,
-                and every act of compassion,
-                everything we do is to the glory of God.
-
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="about.html"
-                   class="primary-button">
-
-                    Discover Our Story
-
-                </a>
-
-                <a href="gallery.html"
-                   class="secondary-button">
-
-                    See Our Community
-
-                </a>
-
-            </div>
+          <p>+27 XX XXX XXXX</p>
 
         </div>
 
-        <!-- Scroll Down -->
-
-        <div class="scroll-indicator">
-
-            <span></span>
-
-            <p>Scroll</p>
-
-        </div>
-
-    </section>
+      </div>
 
 
-    <!-- ========================================= -->
-    <!-- CURVED DIVIDER -->
-    <!-- ========================================= -->
+      <div class="contact-item">
 
-    <svg class="wave"
-         viewBox="0 0 1440 180"
-         xmlns="http://www.w3.org/2000/svg">
+        <img src="images/icons/mail.png" alt="Email">
 
-        <path fill="#F8F3EC"
-              d="M0,64L120,96C240,128,480,192,720,186.7C960,181,1200,107,1320,69.3L1440,32V180H1320C1200,180,960,180,720,180C480,180,240,180,120,180H0Z">
+        <div>
 
-        </path>
+          <h4>Email</h4>
 
-    </svg>
-
-
-    <!-- ========================================= -->
-    <!-- WHAT IS HOUSE OF PHILIA -->
-    <!-- ========================================= -->
-
-    <section class="about-preview">
-
-        <div class="about-image">
-
-            <img src="images/hero/community.jpg"
-                 alt="House of Philia Community">
+          <p>houseofphilia@email.com</p>
 
         </div>
 
-        <div class="about-text">
+      </div>
 
-            <p class="section-title">
+      <a href="contact.html" class="primary-button">
 
-                WHO WE ARE
+        Contact House of Philia
 
-            </p>
+      </a>
 
-            <h2>
+    </div>
 
-                More than an organisation.
+  </div>
 
-                <br>
+</section>
 
-                A family serving a community.
+    <!-- ========================= FOLLOW OUR JOURNEY ========================= -->
 
-            </h2>
+<section class="social-strip">
 
-            <p>
+  <div class="section-heading">
 
-                Philia is the Greek word for brotherly love.
+    <p>FOLLOW OUR JOURNEY</p>
 
-                House of Philia exists to serve the Durban community
-                through meals, fellowship, compassion and faith.
+    <h2>Community. Faith. Compassion.</h2>
 
-            </p>
+    <p>Snapshots from Saturdays in Durban.</p>
 
-            <p>
+  </div>
 
-                We believe serving is not about standing above people.
+  <div class="social-gallery">
 
-                It is about walking alongside them,
-                sharing life together,
-                and reflecting God's love through genuine acts of kindness.
+    <img src="images/gallery/photo7.jpg" alt="">
+    <img src="images/gallery/photo8.jpg" alt="">
+    <img src="images/gallery/photo9.jpg" alt="">
+    <img src="images/gallery/photo10.jpg" alt="">
 
-            </p>
+  </div>
 
-            <a href="about.html"
-               class="text-link">
+  <div class="social-links">
 
-                Learn more about our journey →
+    <a href="#">
 
-            </a>
+      <img src="images/icons/instagram.png" alt="Instagram">
 
-        </div>
+      @houseofphilia
 
-    </section>
+    </a>
 
+    <a href="#">
 
-    <!-- ========================================= -->
-    <!-- OUR HEART -->
-    <!-- ========================================= -->
+      <img src="images/icons/facebook.png" alt="Facebook">
 
-    <section class="mission-section">
+      House of Philia
 
-        <div class="section-heading">
+    </a>
 
-            <p>OUR HEART</p>
+    <a href="#">
 
-            <h2>Faith. Love. Community.</h2>
+      <img src="images/icons/whatsapp.png" alt="WhatsApp">
 
-            <p>
+      WhatsApp Community Outreach
 
-                Every Saturday begins with love,
-                continues through service,
-                and ends with gratitude.
+    </a>
 
-            </p>
+  </div>
 
-        </div>
+</section>
 
-        <div class="mission-grid">
 
-            <!-- CARD -->
+<!-- ========================= FOOTER ========================= -->
 
-            <div class="mission-card">
+<footer class="footer">
 
-                <img src="images/icons/bread.png">
+  <div class="footer-top">
 
-                <h3>Serve</h3>
+    <img src="images/logo/logo.png" alt="House of Philia Logo" class="footer-logo">
 
-                <p>
+    <h2>House of Philia</h2>
 
-                    Preparing meals and pastries
-                    with dignity, generosity and care.
+    <p class="footer-tagline">
 
-                </p>
+      We don't just touch the stomach.
 
-            </div>
+      We touch the soul with genuine love.
 
-            <!-- CARD -->
+    </p>
 
-            <div class="mission-card">
+    <div class="gold-divider small"></div>
 
-                <img src="images/icons/heart.png">
+  </div>
 
-                <h3>Love</h3>
 
-                <p>
+  <div class="footer-grid">
 
-                    Building meaningful relationships
-                    through compassion and genuine kindness.
+    <div>
 
-                </p>
+      <h3>Navigate</h3>
 
-            </div>
+      <ul>
 
-            <!-- CARD -->
+        <li><a href="index.html">Home</a></li>
 
-            <div class="mission-card">
+        <li><a href="about.html">About</a></li>
 
-                <img src="images/icons/cross.png">
+        <li><a href="saturdays.html">Saturdays</a></li>
 
-                <h3>Faith</h3>
+        <li><a href="gallery.html">Gallery</a></li>
 
-                <p>
+        <li><a href="contact.html">Contact</a></li>
 
-                    Everything we do is done
-                    to the glory of God.
+      </ul>
 
-                </p>
+    </div>
 
-            </div>
 
-        </div>
+    <div>
 
-    </section>
+      <h3>Saturday Outreach</h3>
 
+      <ul>
 
-    <!-- ========================================= -->
-    <!-- QUOTE SECTION -->
-    <!-- ========================================= -->
+        <li>09:00 Pastry Preparation</li>
 
-    <section class="quote-section">
+        <li>10:00–10:30 Serving Begins</li>
 
-        <div class="quote-card">
+        <li>11:30–11:45 Outreach Concludes</li>
 
-            <p class="quote-mark">“</p>
+      </ul>
 
-            <h2>
+    </div>
 
-                Every act of kindness is an opportunity
 
-                to reflect the love of Christ.
+    <div>
 
-            </h2>
+      <h3>Our Foundation</h3>
 
-            <span>House of Philia</span>
+      <p>
 
-           <!-- ========================================= -->
-    <!-- OUR JOURNEY -->
-    <!-- ========================================= -->
+        Serving Durban through faith,
 
-    <section class="timeline-section">
+        compassion,
 
-        <div class="section-heading">
+        generosity,
 
-            <p>OUR JOURNEY</p>
+        and genuine love.
 
-            <h2>More than ten years of faithful service.</h2>
+      </p>
 
-            <p>
-                What began with a heart to serve has grown into a community built
-                on compassion, consistency and faith.
-            </p>
+      <p class="footer-scripture">
 
-        </div>
+        "Let all that you do be done in love."
 
-        <div class="timeline">
+      </p>
 
-            <div class="timeline-item left">
+      <span>1 Corinthians 16:14</span>
 
-                <div class="timeline-content">
+    </div>
 
-                    <span>2015</span>
+  </div>
 
-                    <h3>The beginning.</h3>
+  <div class="footer-divider"></div>
 
-                    <p>
-                        House of Philia began with a simple mission:
-                        serve the community with genuine love and compassion.
-                    </p>
+  <div class="footer-bottom">
 
-                </div>
+    <p>
 
-            </div>
+      © 2026 House of Philia.
 
-            <div class="timeline-item right">
+      Serving Durban with faith, compassion and brotherly love.
 
-                <div class="timeline-content">
+    </p>
 
-                    <span>Growing Together</span>
+    <p class="credit">
 
-                    <h3>One Saturday became many Saturdays.</h3>
+      Designed with love for House of Philia.
 
-                    <p>
-                        Week after week people continued showing up,
-                        preparing meals, building relationships and serving faithfully.
-                    </p>
+    </p>
 
-                </div>
+  </div>
 
-            </div>
+</footer>
 
-            <div class="timeline-item left">
+<script src="js/script.js"></script>
 
-                <div class="timeline-content">
-
-                    <span>Today</span>
-
-                    <h3>Still serving with the same heart.</h3>
-
-                    <p>
-                        More than a decade later,
-                        House of Philia continues serving over 200 people every Saturday
-                        with meals, fellowship and hope.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ========================================= -->
-    <!-- IMPACT SECTION -->
-    <!-- ========================================= -->
-
-    <section class="impact-section">
-
-        <div class="impact-overlay"></div>
-
-        <div class="section-heading light">
-
-            <p>OUR IMPACT</p>
-
-            <h2>Love in Action.</h2>
-
-            <p>
-                Every number represents people, stories and lives touched through
-                consistent acts of service.
-            </p>
-
-        </div>
-
-        <div class="impact-grid">
-
-            <div class="impact-card">
-
-                <h3 class="counter" data-target="200">0</h3>
-
-                <p>People served every Saturday.</p>
-
-            </div>
-
-            <div class="impact-card">
-
-                <h3 class="counter" data-target="10">0</h3>
-
-                <p>Years serving the community.</p>
-
-            </div>
-
-            <div class="impact-card">
-
-                <h3>Every Saturday</h3>
-
-                <p>
-                    Meals, pastries, and prayer shared with our community.
-                </p>
-
-            </div>
-
-            <div class="impact-card">
-
-                <h3>One Community</h3>
-
-                <p>
-                    Serving with people, not above people.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ========================================= -->
-    <!-- PHOTO + VIDEO GALLERY PREVIEW -->
-    <!-- ========================================= -->
-
-    <section class="gallery-preview">
-
-        <div class="section-heading">
-
-            <p>OUR COMMUNITY</p>
-
-            <h2>Moments filled with love.</h2>
-
-            <p>
-                Every Saturday tells another story of faith, friendship and hope.
-            </p>
-
-        </div>
-
-        <div class="gallery-grid">
-
-            <!-- PHOTO 1 -->
-
-            <div class="gallery-card large">
-
-                <img src="images/gallery/photo1.jpg"
-                     alt="Community Outreach">
-
-            </div>
-
-            <!-- PHOTO 2 -->
-
-            <div class="gallery-card">
-
-                <img src="images/gallery/photo2.jpg"
-                     alt="Preparing Meals">
-
-            </div>
-
-            <!-- PHOTO 3 -->
-
-            <div class="gallery-card">
-
-                <img src="images/gallery/photo3.jpg"
-                     alt="Serving Pastries">
-
-            </div>
-
-            <!-- VIDEO -->
-
-            <div class="gallery-card video-card">
-
-                <video muted loop autoplay playsinline>
-
-                    <source src="videos/saturday1.mp4"
-                            type="video/mp4">
-
-                </video>
-
-            </div>
-
-            <!-- PHOTO 4 -->
-
-            <div class="gallery-card">
-
-                <img src="images/gallery/photo4.jpg"
-                     alt="Children and Families">
-
-            </div>
-
-            <!-- PHOTO 5 -->
-
-            <div class="gallery-card tall">
-
-                <img src="images/gallery/photo5.jpg"
-                     alt="Community Fellowship">
-
-            </div>
-
-        </div>
-
-        <div class="gallery-button">
-
-            <a href="gallery.html"
-               class="primary-button">
-
-                Explore the Full Gallery
-
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- ========================================= -->
-    <!-- COMMUNITY SECTION -->
-    <!-- ========================================= -->
-
-    <section class="community-section">
-
-        <div class="community-image">
-
-            <img src="images/gallery/photo6.jpg"
-                 alt="Serving Together">
-
-        </div>
-
-        <div class="community-text">
-
-            <p class="section-title">
-                SERVING THE COMMUNITY
-            </p>
-
-            <h2>
-                Rooted in our community.
-            </h2>
-
-            <p>
-                House of Philia serves within the Durban community because community
-                begins with knowing, loving and walking alongside one another.
-            </p>
-
-            <p>
-                We are neighbours serving neighbours through compassion, meals,
-                encouragement and faith.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- ========================================= -->
-    <!-- CURVED DIVIDER -->
-    <!-- ========================================= -->
-
-    <svg class="wave-bottom"
-         viewBox="0 0 1440 180"
-         xmlns="http://www.w3.org/2000/svg">
-
-        <path fill="#FFFDF9"
-              d="M0,64L120,90.7C240,117,480,171,720,165.3C960,160,1200,96,1320,64L1440,32V180H1320C1200,180,960,180,720,180C480,180,240,180,120,180H0Z">
-
-        </path>
-
-    </svg>
+</body>
+</html>
